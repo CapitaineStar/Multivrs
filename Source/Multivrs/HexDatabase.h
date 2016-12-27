@@ -40,7 +40,7 @@ class MULTIVRS_API UHexDatabase : public UDataAsset
 	
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Multivrs")
-	TArray<FHexInfo> hexItems;
+	TArray<FHexInfo> hexList;
 
 	/*
 	*Finds the index of the first instance of the type within the database

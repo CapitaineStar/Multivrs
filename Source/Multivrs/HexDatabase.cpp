@@ -7,20 +7,19 @@ int32 UHexDatabase::FindHexType(const EHexType & TypeToFind)
 {
 	int32 ResultIndex = INDEX_NONE;
 
-	if (UHexDatabase::hexItems.Num() != 0)
+	if (UHexDatabase::hexList.Num() != 0)
 	{
-
 		// compare against each element in the array
-		for (int32 Idx = 0; Idx < hexItems.Num() && ResultIndex == INDEX_NONE; Idx++)
+		for (int32 Idx = 0; Idx < hexList.Num() && ResultIndex == INDEX_NONE; Idx++)
 		{
-			if (UHexDatabase::hexItems[Idx].hexType == TypeToFind)
+			if (UHexDatabase::hexList[Idx].hexType == TypeToFind)
 			{
+				// assign the resulting index
 				ResultIndex = Idx;
 			}
 		}
 	}
 
-	// assign the resulting index
 	return ResultIndex;
 }
 
@@ -28,13 +27,12 @@ int32 UHexDatabase::FindHexTypeRandom(const EHexType & TypeToFind, const FRandom
 {
 	TArray<int32> ResultsFind;
 
-	if (UHexDatabase::hexItems.Num() != 0)
+	if (UHexDatabase::hexList.Num() != 0)
 	{
-
 		// compare against each element in the array and add to result array
-		for (int32 Idx = 0; Idx < hexItems.Num(); Idx++)
+		for (int32 Idx = 0; Idx < hexList.Num(); Idx++)
 		{
-			if (UHexDatabase::hexItems[Idx].hexType == TypeToFind)
+			if (UHexDatabase::hexList[Idx].hexType == TypeToFind)
 			{
 				ResultsFind.Emplace(Idx);
 			}
