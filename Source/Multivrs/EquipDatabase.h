@@ -26,6 +26,15 @@ struct FEquipInfo {
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Multivrs")
 	UTexture2D* equipTexture;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Multivrs")
+	FText equipAbilityName;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Multivrs")
+	FText equipAbilityDescription;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Multivrs")
+	float equipAbilityTime;
 };
 
 /**
