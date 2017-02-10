@@ -11,7 +11,7 @@ public class Multivrs : ModuleRules
             "CoreUObject",
             "Engine",
             "InputCore",
-
+			// NVidia dependencies for vertex positions
             "PhysX", "APEX"
         });
 

@@ -19,6 +19,6 @@ public:
 	static bool GetStaticMeshVertexLocations(UStaticMeshComponent* Comp, TArray<FVector>& VertexPositions);
 
 	UFUNCTION(BlueprintPure, Category = "MultivrsBPLibrary")
-	static bool GetStaticMeshVertex(UStaticMesh* SM, TArray<FVector>& VertexPositions, TArray<FColor>& VertexColors);
+	static bool GetStaticMeshVertexInfo(UStaticMeshComponent* SM, TArray<FVector>& VertexPositions, TArray<FColor>& VertexColors);
 	
 };

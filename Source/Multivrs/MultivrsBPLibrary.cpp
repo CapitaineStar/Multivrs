@@ -7,6 +7,8 @@
 #include "PhysXIncludes.h"
 #include "PhysXPublic.h"
 
+#include "StaticMeshResources.h"
+
 bool UMultivrsBPLibrary::GetStaticMeshVertexLocations(UStaticMeshComponent* Comp, TArray<FVector>& VertexPositions)
 {
 	VertexPositions.Empty();
@@ -60,7 +62,7 @@ bool UMultivrsBPLibrary::GetStaticMeshVertexLocations(UStaticMeshComponent* Comp
 	*/
 }
 
-bool UMultivrsBPLibrary::GetStaticMeshVertex(UStaticMesh* SM, TArray<FVector>& VertexPositions, TArray<FColor>& VertexColors)
+bool UMultivrsBPLibrary::GetStaticMeshVertexInfo(UStaticMeshComponent* SM, TArray<FVector>& VertexPositions, TArray<FColor>& VertexColors)
 {
 	VertexPositions.Empty();
 	VertexColors.Empty();
@@ -74,41 +76,24 @@ bool UMultivrsBPLibrary::GetStaticMeshVertex(UStaticMesh* SM, TArray<FVector>& V
 		return false;
 	}
 
-	//Body Setup valid?
-	UBodySetup* BodySetup = SM->BodySetup;
-	if (!BodySetup || !BodySetup->IsValidLowLevel())
+	FPositionVertexBuffer* VertexBuffer = &SM->GetStaticMesh()->RenderData->LODResources[0].PositionVertexBuffer;
+	FColorVertexBuffer* ColorBuffer = &SM->GetStaticMesh()->RenderData->LODResources[0].ColorVertexBuffer;
+
+	if (VertexBuffer)
 	{
+		const int32 VertexCount = VertexBuffer->GetNumVertices();
+		for (int32 Index = 0; Index < VertexCount; Index++)
+		{
+			// Converts the UStaticMesh vertex into world actor space including Translation, Rotation, and Scaling
+			const FVector WSLocation = SM->GetOwner()->GetTransform().TransformVector(VertexBuffer->VertexPosition(Index));
+			VertexPositions.Add(WSLocation);
+
+			const FColor Color = ColorBuffer->VertexColor(Index);
+			VertexColors.Add(Color);
+		}
+	}
+	else
 		return false;
-	}
-
-	for (PxTriangleMesh* EachTriMesh : BodySetup->TriMeshes)
-	{
-		if (!EachTriMesh)
-		{
-			return false;
-		}
-
-		//Number of vertices
-		PxU32 VertexCount = EachTriMesh->getNbVertices();
-
-		//Vertex array
-		const PxVec3* Vertices = EachTriMesh->getVertices();
-
-		//For each vertex, transform the position to match the component Transform 
-		for (PxU32 v = 0; v < VertexCount; v++)
-		{
-			VertexPositions.Add(P2UVector(Vertices[v]));
-		}
-	}
-
-	TMap<FVector, FColor> VCMap;
-	SM->GetVertexColorData(VCMap);
-	
-	for (int i = 0; i < VCMap.Num(); i++)
-	{
-		FColor c = VCMap.FindRef(VertexPositions[i]);
-		VertexColors.Add(c);
-	}
 
 	return true;
 }
