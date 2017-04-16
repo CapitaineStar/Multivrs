@@ -1,0 +1,120 @@
+﻿# Game English translation.
+# Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Game\n"
+"POT-Creation-Date: 2017-04-16 15:40\n"
+"PO-Revision-Date: 2017-04-16 15:40\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Key:	08B374544E3F90ECB5FFCDAB7955B2AD
+#. SourceLocation:	/Game/Characters/Prey/Prey.Prey_C:ExecuteUbergraph_Prey [Script Bytecode]
+#: /Game/Characters/Prey/Prey.Prey_C:ExecuteUbergraph_Prey [Script Bytecode]
+msgctxt ",08B374544E3F90ECB5FFCDAB7955B2AD"
+msgid "Prey in proximity!"
+msgstr "Prey in proximity!"
+
+#. Key:	11B5C9FE4AC2CBBDE9ED97B2F1EC405E
+#. SourceLocation:	/Game/Characters/Player.Player_C:UpdateFloatingInfos [Script Bytecode]
+#: /Game/Characters/Player.Player_C:UpdateFloatingInfos [Script Bytecode]
+msgctxt ",11B5C9FE4AC2CBBDE9ED97B2F1EC405E"
+msgid "Entropy » "
+msgstr "Entropy » "
+
+#. Key:	2D392DAC4DCA4EFE4994CEA5CCD060BC
+#. SourceLocation:	/Game/Characters/Player.Player_C:UpdateFloatingInfos [Script Bytecode]
+#: /Game/Characters/Player.Player_C:UpdateFloatingInfos [Script Bytecode]
+msgctxt ",2D392DAC4DCA4EFE4994CEA5CCD060BC"
+msgid "Ability » "
+msgstr "Ability » "
+
+#. Key:	2D59100145C4E690943A728550D05497
+#. SourceLocation:	/Game/Characters/Player.Player_C:UpdateFloatingInfos [Script Bytecode]
+#: /Game/Characters/Player.Player_C:UpdateFloatingInfos [Script Bytecode]
+msgctxt ",2D59100145C4E690943A728550D05497"
+msgid "[Stats]"
+msgstr "[Stats]"
+
+#. Key:	3668CB794AD33C903E793DBFE501F750
+#. SourceLocation:	/Game/Characters/Player.Player_C:ReceiveDamage [Script Bytecode]
+#: /Game/Characters/Player.Player_C:ReceiveDamage [Script Bytecode]
+msgctxt ",3668CB794AD33C903E793DBFE501F750"
+msgid "Less than 25% health remaining"
+msgstr "Less than 25% health remaining"
+
+#. Key:	4B3907554C55D2999B77B59348B4CC5D
+#. SourceLocation:	/Game/Characters/Player.Player_C:EnterUniverse [Script Bytecode]
+#: /Game/Characters/Player.Player_C:EnterUniverse [Script Bytecode]
+msgctxt ",4B3907554C55D2999B77B59348B4CC5D"
+msgid "Entered Universe ¬"
+msgstr "Entered Universe ¬"
+
+#. Key:	781A689741F9E81C3AFD67BBF9552AEC
+#. SourceLocation:	/Game/Characters/Player.Player_C:ReceiveDamage [Script Bytecode]
+#: /Game/Characters/Player.Player_C:ReceiveDamage [Script Bytecode]
+msgctxt ",781A689741F9E81C3AFD67BBF9552AEC"
+msgid "Less than 50% health remaining"
+msgstr "Less than 50% health remaining"
+
+#. Key:	8157F8854F9B0E2172002F9C41B33286
+#. SourceLocation:	/Game/Characters/Player.Player_C:UpdateFloatingInfos [Script Bytecode]
+#: /Game/Characters/Player.Player_C:UpdateFloatingInfos [Script Bytecode]
+msgctxt ",8157F8854F9B0E2172002F9C41B33286"
+msgid "[Gear]"
+msgstr "[Gear]"
+
+#. Key:	96CE5A2142712C8DE42E5ABC4574AB12
+#. SourceLocation:	/Game/Characters/Player.Player_C:UpdateFloatingInfos [Script Bytecode]
+#: /Game/Characters/Player.Player_C:UpdateFloatingInfos [Script Bytecode]
+msgctxt ",96CE5A2142712C8DE42E5ABC4574AB12"
+msgid "Health » "
+msgstr "Health » "
+
+#. Key:	C1F1A8EC433BE9FB468A14B104EAC440
+#. SourceLocation:	/Game/Characters/Prey/Prey_Shard.Prey_Shard_C:ExecuteUbergraph_Prey_Shard [Script Bytecode]
+#: /Game/Characters/Prey/Prey_Shard.Prey_Shard_C:ExecuteUbergraph_Prey_Shard [Script Bytecode]
+msgctxt ",C1F1A8EC433BE9FB468A14B104EAC440"
+msgid "Prey current Universe ¬"
+msgstr "Prey current Universe ¬"
+
+#. Key:	C9A31EF64B7AC3FFB0740AB6B78B024B
+#. SourceLocation:	/Game/Characters/Player.Player_C:UpdateFloatingInfos [Script Bytecode]
+#: /Game/Characters/Player.Player_C:UpdateFloatingInfos [Script Bytecode]
+msgctxt ",C9A31EF64B7AC3FFB0740AB6B78B024B"
+msgid "Location » "
+msgstr "Location » "
+
+#. Key:	D3DAF6674FC4600E82B9DCAC660C40D3
+#. SourceLocation:	/Game/Characters/Player.Player_C:UpdateFloatingInfos [Script Bytecode]
+#: /Game/Characters/Player.Player_C:UpdateFloatingInfos [Script Bytecode]
+msgctxt ",D3DAF6674FC4600E82B9DCAC660C40D3"
+msgid "[Spotters]"
+msgstr "[Spotters]"
+
+#. Key:	D46DAF144D5129830035DFB20DC357E4
+#. SourceLocation:	/Game/Characters/Player.Player_C:UpdateFloatingInfos [Script Bytecode]
+#: /Game/Characters/Player.Player_C:UpdateFloatingInfos [Script Bytecode]
+msgctxt ",D46DAF144D5129830035DFB20DC357E4"
+msgid "Momentum » "
+msgstr "Momentum » "
+
+#. Key:	DF8AE47B407E31E4E8EFEFA573748360
+#. SourceLocation:	/Game/Characters/Prey/Prey_Shard.Default__Prey_Shard_C.TooltipText
+#: /Game/Characters/Prey/Prey_Shard.Default__Prey_Shard_C.TooltipText
+msgctxt ",DF8AE47B407E31E4E8EFEFA573748360"
+msgid "Prey shard"
+msgstr "Prey shard"
+
+#. Key:	E57E6718422BCA82EE230D803D2B3F2A
+#. SourceLocation:	/Game/Characters/Player.Player_C:ShowTutorial [Script Bytecode]
+#: /Game/Characters/Player.Player_C:ShowTutorial [Script Bytecode]
+msgctxt ",E57E6718422BCA82EE230D803D2B3F2A"
+msgid "[Tutorial] Introduction"
+msgstr "[Tutorial] Introduction"
+
