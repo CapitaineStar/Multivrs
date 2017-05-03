@@ -12,7 +12,9 @@ public class Multivrs : ModuleRules
             "Engine",
             "InputCore",
 			// NVidia dependencies for vertex positions
-            "PhysX", "APEX"
+            "PhysX", "APEX",
+			// UnrealEd dependencies for custom asset
+			"UnrealEd"
         });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });

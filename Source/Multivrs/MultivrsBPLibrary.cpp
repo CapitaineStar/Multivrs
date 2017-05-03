@@ -97,4 +97,3 @@ bool UMultivrsBPLibrary::GetStaticMeshVertexInfo(UStaticMeshComponent* SM, TArra
 
 	return true;
 }
-
