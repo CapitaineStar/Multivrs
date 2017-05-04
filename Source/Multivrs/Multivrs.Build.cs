@@ -12,12 +12,11 @@ public class Multivrs : ModuleRules
             "Engine",
             "InputCore",
 			// NVidia dependencies for vertex positions
-            "PhysX", "APEX",
-			// UnrealEd dependencies for custom asset
-			"UnrealEd"
-        });
+            "PhysX", "APEX"
 
-		PrivateDependencyModuleNames.AddRange(new string[] {  });
+            // UnrealEd dependencies for custom asset
+            //,"UnrealEd"
+        });
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });

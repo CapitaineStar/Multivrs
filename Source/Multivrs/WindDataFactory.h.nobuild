@@ -1,14 +1,16 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
+#if WITH_EDITOR 
+
 #pragma once
 
 #include "Factories/Factory.h"
 #include "WindData.h"
+#include "UnrealEd.h"
+
 #include "WindDataFactory.generated.h"
 
-/**
- * 
- */
+
 UCLASS()
 class MULTIVRS_API UWindDataFactory : public UFactory
 {
@@ -18,3 +20,5 @@ class MULTIVRS_API UWindDataFactory : public UFactory
 	
 	static bool LoadWindData(FString FilePath, UWindData& WindDataObject);
 };
+
+#endif
