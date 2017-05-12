@@ -97,3 +97,20 @@ bool UMultivrsBPLibrary::GetStaticMeshVertexInfo(UStaticMeshComponent* SM, TArra
 
 	return true;
 }
+
+void UMultivrsBPLibrary::DrawSpline(UPARAM(ref) FPaintContext& Context, FVector2D InStart, FVector2D InStartDir, FVector2D InEnd, FVector2D InEndDir, FLinearColor Tint /*= FLinearColor::White*/, float Thickness /*= 1.0f*/)
+{
+	Context.MaxLayer++;
+	
+	FSlateDrawElement::MakeSpline(
+		Context.OutDrawElements,
+		Context.MaxLayer,
+		Context.AllottedGeometry.ToPaintGeometry(),
+		InStart, InStartDir,
+		InEnd, InEndDir,
+		Context.MyClippingRect,
+		Thickness,
+		ESlateDrawEffect::None,
+		Tint);
+		
+}
