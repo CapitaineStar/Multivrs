@@ -16,16 +16,13 @@ struct FEquipInfo {
 	TSubclassOf<AActor> equipClass;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Multivrs")
-	float chanceWeight;
+	float chanceWeight = 1.0;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Multivrs")
 	FText equipName;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Multivrs")
-	FText equipDescription;
-	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Multivrs")
-	UTexture2D* equipTexture;
+	FText equipFluffText;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Multivrs")
 	FText equipAbilityName;
@@ -34,7 +31,10 @@ struct FEquipInfo {
 	FText equipAbilityDescription;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Multivrs")
-	float equipAbilityTime;
+	FString equipAbilityHexPattern = "+";
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Multivrs")
+	float equipAbilityCost = 1.0;
 };
 
 /**
