@@ -22,19 +22,19 @@ struct FEquipInfo {
 	FText equipName;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Multivrs")
-	FText equipFluffText;
+	FText fluffText;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Multivrs")
-	FText equipAbilityName;
+	FText shelterAbilityName;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Multivrs")
-	FText equipAbilityDescription;
+	FText shelterAbilityDescription;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Multivrs")
-	FString equipAbilityHexPattern = "+";
+	FString shelterSelectionPattern = "+";
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Multivrs")
-	float equipAbilityCost = 1.0;
+	float shelterAbilityCost = 1.0;
 };
 
 /**
