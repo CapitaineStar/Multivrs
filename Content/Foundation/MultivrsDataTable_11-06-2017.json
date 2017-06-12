@@ -1,0 +1,638 @@
+[
+	{
+		"Name": "Default",
+		"DebugOnly": true,
+		"ValidSpawnUniverse": false,
+		"UniverseName": "NSLOCTEXT(\"[B4C1223E427F81194666D096F52F9770]\", \"60098C3C46D59A701F4DDC912D4152B5\", \"Default\")",
+		"HexDatabase": "HexDatabase'/Game/Environment/Biomes/Default/Default_Database.Default_Database'",
+		"Ambience":
+		{
+			"SkySphere":
+			{
+				"HorizonColor":
+				{
+					"R": 1,
+					"G": 0.67437297105789185,
+					"B": 0.375,
+					"A": 1
+				},
+				"ZenithColor":
+				{
+					"R": 0.22499999403953552,
+					"G": 0.37395200133323669,
+					"B": 1,
+					"A": 1
+				},
+				"HorizonFallof": 3,
+				"SunRadius": 0.00030000001424923539,
+				"StarsBrightness": 0.10000000149011612,
+				"StarsTexture": "Texture2D'/Engine/EngineSky/T_Sky_Stars.T_Sky_Stars'"
+			},
+			"Fog":
+			{
+				"Density": 0.019999999552965164,
+				"MaxOpacity": 1,
+				"InscatteringColor":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"HeightFallof": 0.20000000298023224,
+				"StartDistance": 0,
+				"DirectionalInscattering_Color":
+				{
+					"R": 0.25,
+					"G": 0.25,
+					"B": 0.25,
+					"A": 1
+				},
+				"DirectionalInscattering_Exponent": 4,
+				"DirectionalInscattering_StartDistance": 1000,
+				"VolumetricFog_Enabled": false,
+				"VolumetricFog_ScatteringDistribution": 0.20000000298023224,
+				"VolumetricFog_Albedo":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"VolumetricFog_Emissive":
+				{
+					"R": 0,
+					"G": 0,
+					"B": 0,
+					"A": 0
+				},
+				"VolumetricFog_ExtinctionScale": 1,
+				"VolumetricFog_ViewDistance": 6000
+			},
+			"Lights":
+			{
+				"Direct_Color":
+				{
+					"R": 1,
+					"G": 0.7850000262260437,
+					"B": 0.49500000476837158,
+					"A": 1
+				},
+				"Direct_Intensity": 10,
+				"Direct_HorizonAngle": 45,
+				"Direct_ZenithAngle": 0,
+				"Sky_Color":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"Sky_Intensity": 1
+			},
+			"PostProcess":
+			{
+				"WhiteBalance_Temp": 6500,
+				"WhiteBalance_Tint": 0,
+				"ColorGrading_Saturation":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"ColorGrading_Contrast":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"ColorGrading_Gamma":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"ColorGrading_Gain":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"ColorGrading_Offset":
+				{
+					"R": 0,
+					"G": 0,
+					"B": 0,
+					"A": 0
+				},
+				"ColorGrading_SceneTint":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"ColorGrading_LUTIntensity": 1,
+				"ColorGrading_LUT": "None",
+				"Tonemapper_Slope": 0.87999999523162842,
+				"Tonemapper_Toe": 0.55000001192092896,
+				"Tonemapper_Shoulder": 0.25999999046325684,
+				"Tonemapper_BlackClip": 0,
+				"Tonemapper_WhiteClip": 0.039999999105930328,
+				"LensEffects_ChromaticAberation": 0.20000000298023224,
+				"LensEffects_VignetteIntensity": 0.40000000596046448,
+				"LensBloom_Intensity": 0.67500001192092896,
+				"LensBloom_Threshold": 0
+			}
+		},
+		"Biome":
+		{
+			"DebugOnly": false,
+			"LoadingRange": 3,
+			"VisibilityRange": 2,
+			"Entropy": 20,
+			"HexTileScale": 0.20000000298023224
+		}
+	},
+	{
+		"Name": "GoldenWaste",
+		"DebugOnly": false,
+		"ValidSpawnUniverse": true,
+		"UniverseName": "NSLOCTEXT(\"[8AC1A66540518156DB17ECB40B1A90B4]\", \"BAF75BDE421B403A4C44F1A54598FC6E\", \"The Golden Waste\")",
+		"HexDatabase": "HexDatabase'/Game/Environment/Biomes/Thorns/Thorns_Database.Thorns_Database'",
+		"Ambience":
+		{
+			"SkySphere":
+			{
+				"HorizonColor":
+				{
+					"R": 0.052861001342535019,
+					"G": 0.2558479905128479,
+					"B": 0.69387197494506836,
+					"A": 1
+				},
+				"ZenithColor":
+				{
+					"R": 0.27049800753593445,
+					"G": 0,
+					"B": 0.81484699249267578,
+					"A": 1
+				},
+				"HorizonFallof": 3,
+				"SunRadius": 0.00030000001424923539,
+				"StarsBrightness": 3,
+				"StarsTexture": "Texture2D'/Engine/EngineSky/T_Sky_Stars.T_Sky_Stars'"
+			},
+			"Fog":
+			{
+				"Density": 0.05000000074505806,
+				"MaxOpacity": 1,
+				"InscatteringColor":
+				{
+					"R": 0.052861001342535019,
+					"G": 0.49693301320075989,
+					"B": 0.69387197494506836,
+					"A": 1
+				},
+				"HeightFallof": 0.80000001192092896,
+				"StartDistance": 4000,
+				"DirectionalInscattering_Color":
+				{
+					"R": 0.57999998331069946,
+					"G": 0.57999998331069946,
+					"B": 0.57999998331069946,
+					"A": 1
+				},
+				"DirectionalInscattering_Exponent": 8,
+				"DirectionalInscattering_StartDistance": 1000,
+				"VolumetricFog_Enabled": false,
+				"VolumetricFog_ScatteringDistribution": 0.20000000298023224,
+				"VolumetricFog_Albedo":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"VolumetricFog_Emissive":
+				{
+					"R": 0,
+					"G": 0,
+					"B": 0,
+					"A": 0
+				},
+				"VolumetricFog_ExtinctionScale": 1,
+				"VolumetricFog_ViewDistance": 6000
+			},
+			"Lights":
+			{
+				"Direct_Color":
+				{
+					"R": 0.92158198356628418,
+					"G": 0.74540400505065918,
+					"B": 0.042311001569032669,
+					"A": 1
+				},
+				"Direct_Intensity": 15,
+				"Direct_HorizonAngle": 15,
+				"Direct_ZenithAngle": 5,
+				"Sky_Color":
+				{
+					"R": 0.39475700259208679,
+					"G": 0.093999996781349182,
+					"B": 1,
+					"A": 1
+				},
+				"Sky_Intensity": 1.5
+			},
+			"PostProcess":
+			{
+				"WhiteBalance_Temp": 8000,
+				"WhiteBalance_Tint": 0.15000000596046448,
+				"ColorGrading_Saturation":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"ColorGrading_Contrast":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"ColorGrading_Gamma":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"ColorGrading_Gain":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"ColorGrading_Offset":
+				{
+					"R": 0,
+					"G": 0,
+					"B": 0,
+					"A": 0
+				},
+				"ColorGrading_SceneTint":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"ColorGrading_LUTIntensity": 1,
+				"ColorGrading_LUT": "None",
+				"Tonemapper_Slope": 0.60000002384185791,
+				"Tonemapper_Toe": 0.64999997615814209,
+				"Tonemapper_Shoulder": 0.30000001192092896,
+				"Tonemapper_BlackClip": 0,
+				"Tonemapper_WhiteClip": 0.039999999105930328,
+				"LensEffects_ChromaticAberation": 0.20000000298023224,
+				"LensEffects_VignetteIntensity": 0.40000000596046448,
+				"LensBloom_Intensity": 4,
+				"LensBloom_Threshold": 0
+			}
+		},
+		"Biome":
+		{
+			"DebugOnly": false,
+			"LoadingRange": 3,
+			"VisibilityRange": 2,
+			"Entropy": 5,
+			"HexTileScale": 1
+		}
+	},
+	{
+		"Name": "Flow",
+		"DebugOnly": false,
+		"ValidSpawnUniverse": true,
+		"UniverseName": "NSLOCTEXT(\"[8AC1A66540518156DB17ECB40B1A90B4]\", \"30B5C4DB4648ACC7F3C6D890E6BDA6E7\", \"Flow\")",
+		"HexDatabase": "HexDatabase'/Game/Environment/Biomes/Flow/Flow_Database.Flow_Database'",
+		"Ambience":
+		{
+			"SkySphere":
+			{
+				"HorizonColor":
+				{
+					"R": 0.10247299820184708,
+					"G": 0.67387700080871582,
+					"B": 1,
+					"A": 1
+				},
+				"ZenithColor":
+				{
+					"R": 0.06357400119304657,
+					"G": 0.030736999586224556,
+					"B": 0.34000000357627869,
+					"A": 1
+				},
+				"HorizonFallof": 3,
+				"SunRadius": 0.00019999999494757503,
+				"StarsBrightness": 0,
+				"StarsTexture": "Texture2D'/Engine/EngineSky/T_Sky_Stars.T_Sky_Stars'"
+			},
+			"Fog":
+			{
+				"Density": 0.10000000149011612,
+				"MaxOpacity": 1,
+				"InscatteringColor":
+				{
+					"R": 0.76999998092651367,
+					"G": 0.55824202299118042,
+					"B": 0.37729999423027039,
+					"A": 1
+				},
+				"HeightFallof": 0.20000000298023224,
+				"StartDistance": 4000,
+				"DirectionalInscattering_Color":
+				{
+					"R": 0.49200001358985901,
+					"G": 0.082938998937606812,
+					"B": 0.0092150000855326653,
+					"A": 1
+				},
+				"DirectionalInscattering_Exponent": 14,
+				"DirectionalInscattering_StartDistance": 1000,
+				"VolumetricFog_Enabled": false,
+				"VolumetricFog_ScatteringDistribution": 0.20000000298023224,
+				"VolumetricFog_Albedo":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"VolumetricFog_Emissive":
+				{
+					"R": 0,
+					"G": 0,
+					"B": 0,
+					"A": 0
+				},
+				"VolumetricFog_ExtinctionScale": 1,
+				"VolumetricFog_ViewDistance": 6000
+			},
+			"Lights":
+			{
+				"Direct_Color":
+				{
+					"R": 1,
+					"G": 0.67856401205062866,
+					"B": 0.24500000476837158,
+					"A": 1
+				},
+				"Direct_Intensity": 7,
+				"Direct_HorizonAngle": 12,
+				"Direct_ZenithAngle": 185,
+				"Sky_Color":
+				{
+					"R": 0.69999998807907104,
+					"G": 0.72347599267959595,
+					"B": 1,
+					"A": 1
+				},
+				"Sky_Intensity": 1
+			},
+			"PostProcess":
+			{
+				"WhiteBalance_Temp": 7500,
+				"WhiteBalance_Tint": 0.10000000149011612,
+				"ColorGrading_Saturation":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1.1000000238418579
+				},
+				"ColorGrading_Contrast":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"ColorGrading_Gamma":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"ColorGrading_Gain":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"ColorGrading_Offset":
+				{
+					"R": 0,
+					"G": 0,
+					"B": 0,
+					"A": 0
+				},
+				"ColorGrading_SceneTint":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"ColorGrading_LUTIntensity": 1,
+				"ColorGrading_LUT": "None",
+				"Tonemapper_Slope": 1,
+				"Tonemapper_Toe": 0.44999998807907104,
+				"Tonemapper_Shoulder": 0.30000001192092896,
+				"Tonemapper_BlackClip": 0,
+				"Tonemapper_WhiteClip": 0.039999999105930328,
+				"LensEffects_ChromaticAberation": 0.20000000298023224,
+				"LensEffects_VignetteIntensity": 0.40000000596046448,
+				"LensBloom_Intensity": 0.67500001192092896,
+				"LensBloom_Threshold": 1
+			}
+		},
+		"Biome":
+		{
+			"DebugOnly": false,
+			"LoadingRange": 3,
+			"VisibilityRange": 2,
+			"Entropy": 2,
+			"HexTileScale": 1
+		}
+	},
+	{
+		"Name": "Null",
+		"DebugOnly": false,
+		"ValidSpawnUniverse": false,
+		"UniverseName": "NSLOCTEXT(\"[8AC1A66540518156DB17ECB40B1A90B4]\", \"FA9A8F5C4C88482E1E45EF8177449348\", \"Null\")",
+		"HexDatabase": "HexDatabase'/Game/Environment/Biomes/Null/Null_Database.Null_Database'",
+		"Ambience":
+		{
+			"SkySphere":
+			{
+				"HorizonColor":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"ZenithColor":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"HorizonFallof": 3,
+				"SunRadius": 0,
+				"StarsBrightness": 0,
+				"StarsTexture": "Texture2D'/Engine/EngineSky/T_Sky_Stars.T_Sky_Stars'"
+			},
+			"Fog":
+			{
+				"Density": 0.10000000149011612,
+				"MaxOpacity": 1,
+				"InscatteringColor":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"HeightFallof": 0.0010000000474974513,
+				"StartDistance": 20000,
+				"DirectionalInscattering_Color":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"DirectionalInscattering_Exponent": 4,
+				"DirectionalInscattering_StartDistance": 0,
+				"VolumetricFog_Enabled": true,
+				"VolumetricFog_ScatteringDistribution": 0.20000000298023224,
+				"VolumetricFog_Albedo":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"VolumetricFog_Emissive":
+				{
+					"R": 0,
+					"G": 0,
+					"B": 0,
+					"A": 0
+				},
+				"VolumetricFog_ExtinctionScale": 3,
+				"VolumetricFog_ViewDistance": 10000
+			},
+			"Lights":
+			{
+				"Direct_Color":
+				{
+					"R": 1,
+					"G": 1, 
+					"B": 1,
+					"A": 1
+				},
+				"Direct_Intensity": 5,
+				"Direct_HorizonAngle": 90,
+				"Direct_ZenithAngle": 0,
+				"Sky_Color":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"Sky_Intensity": 2
+			},
+			"PostProcess":
+			{
+				"WhiteBalance_Temp": 6200,
+				"WhiteBalance_Tint": 0,
+				"ColorGrading_Saturation":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"ColorGrading_Contrast":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"ColorGrading_Gamma":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"ColorGrading_Gain":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"ColorGrading_Offset":
+				{
+					"R": 0,
+					"G": 0,
+					"B": 0,
+					"A": 0
+				},
+				"ColorGrading_SceneTint":
+				{
+					"R": 1,
+					"G": 1,
+					"B": 1,
+					"A": 1
+				},
+				"ColorGrading_LUTIntensity": 1,
+				"ColorGrading_LUT": "None",
+				"Tonemapper_Slope": 1.2000000476837158,
+				"Tonemapper_Toe": 0.55000001192092896,
+				"Tonemapper_Shoulder": 0.25999999046325684,
+				"Tonemapper_BlackClip": 0,
+				"Tonemapper_WhiteClip": 0.039999999105930328,
+				"LensEffects_ChromaticAberation": 0.20000000298023224,
+				"LensEffects_VignetteIntensity": 0.40000000596046448,
+				"LensBloom_Intensity": 0.67500001192092896,
+				"LensBloom_Threshold": 0
+			}
+		},
+		"Biome":
+		{
+			"DebugOnly": false,
+			"LoadingRange": 3,
+			"VisibilityRange": 2,
+			"Entropy": 0.5,
+			"HexTileScale": 1
+		}
+	}
+]
